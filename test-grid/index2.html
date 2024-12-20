@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   * {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    padding: 20px;
+    background-color: #1e1e2f;
+    color: white;
+}
+
+.header {
+    grid-column: span 3;
+    background-color: #2a2a3c;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.module1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: #3a3a4c;
+    padding: 20px;
+}
+
+.module2 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    background-color: #3a3a4c;
+    padding: 20px;
+}
+
+.module3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-color: #3a3a4c;
+    padding: 20px;
+}
+
+.module4 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: #3a3a4c;
+    padding: 20px;
+}
+
+.module5 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-color: #3a3a4c;
+    padding: 20px;
+}
+
+.module6 {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    background-color: #3a3a4c;
+    padding: 20px;
+}
+
+.module7 {
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    background-color: #3a3a4c;
+    padding: 20px;
+} 
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="header">人员室位</div>
+    <div class="module1">数据统计</div>
+    <div class="module2">区域分布</div>
+    <div class="module3">设备管理</div>
+    <div class="module4">运行状态</div>
+    <div class="module5">环境监测</div>
+    <div class="module6">AI监控</div>
+    <div class="module7">其他模块</div>
+</div>
+</body>
+</html>

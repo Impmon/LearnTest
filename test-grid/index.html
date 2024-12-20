@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  height: 100vh;
+  padding: 10px;
+  background-color: #1a237e;
+  color: white;
+}
+
+.header {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  background-color: #2196f3;
+}
+
+.section-a {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: #4caf50;
+}
+
+.section-b {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: #ff5722;
+}
+
+.section-c {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  background-color: #ff9800;
+}
+
+.section-d {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background-color: #607d8b;
+}
+
+.section-e {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  background-color: #9e9e9e;
+}
+
+.section-f {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  background-color: #cddc39;
+}
+
+.section-g {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  background-color: #e91e63;
+}
+
+.section-h {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  background-color: #ffeb3b;
+}
+
+.section-i {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+  background-color: #42a5f5;
+}
+
+.section-j {
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+  background-color: #795548;
+}
+
+.section-k {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+  background-color: #9c27b0;
+}
+
+.section-l {
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+  background-color: #009688;
+}
+
+.section-m {
+  grid-column: 1 / 2;
+  grid-row: 6 / 7;
+  background-color: #7e57c2;
+}
+
+.section-n {
+  grid-column: 2 / 3;
+  grid-row: 6 / 7;
+  background-color: #8bc34a;
+}
+
+.section-o {
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+  background-color: #00bcd4;
+}
+
+.section-p {
+  grid-column: 1 / 2;
+  grid-row: 7 / 8;
+  background-color: #d32f2f;
+}
+
+.section-q {
+  grid-column: 2 / 3;
+  grid-row: 7 / 8;
+  background-color: #601b50;
+}
+
+.section-r {
+  grid-column: 3 / 4;
+  grid-row: 7 / 8;
+  background-color: #ff5722;
+}
+
+.section-s {
+  grid-column: 1 / 2;
+  grid-row: 8 / 9;
+  background-color: #ff9800;
+}
+
+.section-t {
+  grid-column: 2 / 3;
+  grid-row: 8 / 9;
+  background-color: #ff5722;
+}
+
+.section-u {
+  grid-column: 3 / 4;
+  grid-row: 8 / 9;
+  background-color: #ff9800;
+}
+
+.section-v {
+  grid-column: 1 / 2;
+  grid-row: 9 / 10;
+  background-color: #ff5722;
+}
+
+.section-w {
+  grid-column: 2 / 3;
+  grid-row: 9 / 10;
+  background-color: #ff9800;
+}
+
+.section-x {
+  grid-column: 3 / 4;
+  grid-row: 9 / 10;
+  background-color: #ff5722;
+}
+
+.section-y {
+  grid-column: 1 / 2;
+  grid-row: 10 / 11;
+  background-color: #ff9800;
+}
+
+.section-z {
+  grid-column: 2 / 3;
+  grid-row: 10 / 11;
+  background-color: #ff5722;
+}
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="header">Header</div>
+    <div class="section-a">Section A</div>
+    <div class="section-b">Section B</div>
+    <div class="section-c">Section C</div>
+    <div class="section-d">Section D</div>
+    <div class="section-e">Section E</div>
+    <div class="section-f">Section F</div>
+    <div class="section-g">Section G</div>
+    <div class="section-h">Section H</div>
+    <div class="section-i">Section I</div>
+    <div class="section-j">Section J</div>
+    <div class="section-k">Section K</div>
+    <div class="section-l">Section L</div>
+    <div class="section-m">Section M</div>
+    <div class="section-n">Section N</div>
+    <div class="section-o">Section O</div>
+    <div class="section-p">Section P</div>
+    <div class="section-q">Section Q</div>
+    <div class="section-r">Section R</div>
+    <div class="section-s">Section S</div>
+    <div class="section-t">Section T</div>
+    <div class="section-u">Section U</div>
+    <div class="section-v">Section V</div>
+    <div class="section-w">Section W</div>
+    <div class="section-x">Section X</div>
+    <div class="section-y">Section Y</div>
+    <div class="section-z">Section Z</div>
+  </div>
+</body>
+</html>
